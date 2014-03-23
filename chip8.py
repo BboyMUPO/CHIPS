@@ -1,3 +1,5 @@
+import memory
+
 class CPU(object):
     def __init__(self, memory):
     	self._InstructionPointer = 0x200
